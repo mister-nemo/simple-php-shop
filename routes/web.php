@@ -23,6 +23,10 @@ Route::get('/products', function () {
     return view('product/products');
 });
 
+Route::get('/product/{id}', function () {
+    return view('product/product');
+});
+
 Route::get('/account', function () {
     return view('user/account');
 });
