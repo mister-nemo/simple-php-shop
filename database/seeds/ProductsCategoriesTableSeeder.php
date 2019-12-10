@@ -11,6 +11,11 @@ class ProductsCategoriesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\ProductsCategories::class, 25)->create();
+        foreach (Products::all() as $product) {
+
+        	factory(App\ProductsCategories::class)->create([
+			    'product_id' => $product->id
+			]);
+		}
     }
 }

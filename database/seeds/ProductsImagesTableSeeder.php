@@ -11,6 +11,11 @@ class ProductsImagesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\ProductsImages::class, 25)->create();
+        foreach (Products::where('variation', 0)->get() as $product) {
+
+        	factory(App\ProductsImages::class)->create([
+			    'product_id' => $product->id
+			]);
+		}
     }
 }
