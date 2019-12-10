@@ -13,7 +13,7 @@ class ProductsTableSeeder extends Seeder
     {
         factory(App\Products::class, 25)->create();
 
-        foreach (Products::all()->random(5) as $product) {
+        foreach (App\Products::all()->random(5) as $product) {
 
 			factory(App\Products::class, 3)->create([
 			    'variation' => $product->id
