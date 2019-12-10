@@ -42,7 +42,7 @@
 	          <h3 class="mb-0">Product name</h3>
 	          <div class="mb-1 text-muted">Price</div>
 	          <p class="card-text mb-auto"></p>
-	          <a href="#" class="stretched-link">View product</a>
+	          <a href="/product/1" class="stretched-link">View product</a>
 	        </div>
 	        <div class="col-auto d-none d-lg-block">
 	          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -56,7 +56,7 @@
 	          <h3 class="mb-0">Product name</h3>
 	          <div class="mb-1 text-muted">Price</div>
 	          <p class="mb-auto"></p>
-	          <a href="#" class="stretched-link">View product</a>
+	          <a href="/product/2" class="stretched-link">View product</a>
 	        </div>
 	        <div class="col-auto d-none d-lg-block">
 	          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
