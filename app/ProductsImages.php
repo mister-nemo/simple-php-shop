@@ -2,24 +2,7 @@
 
 namespace App;
 
-use Illuminate\Support\Facades\DB;
-use Illuminate\Database\Eloquent\Model;
-
-class ProductsImages extends Model
+class ProductsImages extends OverwriteModel
 {
-    /**
-     * Raw SQL
-     */
-    public function single()
-    {
-        return DB::select("select * from $this->table where id=$id");
-    }
 
-    /**
-     * Raw SQL
-     */
-    public function list()
-    {
-        return DB::select("select * from $this->table");
-    }
 }
