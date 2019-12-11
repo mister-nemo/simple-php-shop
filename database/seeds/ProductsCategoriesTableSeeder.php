@@ -13,7 +13,7 @@ class ProductsCategoriesTableSeeder extends Seeder
     {
         foreach (App\Products::all() as $product) {
 
-        	factory(App\ProductsCategories::class)->create([
+        	factory(App\ProductsCategories::class, 3)->create([
 			    'product_id' => $product->id
 			]);
 		}
